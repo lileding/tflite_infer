@@ -1,0 +1,12 @@
+[package]
+name = "tflite_infer"
+version = "0.1.0"
+authors = ["LI Leding <lileding@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tflite = "0.9.6"
+image = "0.24.4"
+clap = { version = "4.0.10", features = ["derive"] }
